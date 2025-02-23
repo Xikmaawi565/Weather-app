@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcasting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cards">
+        <div class="search">
+            <input type="text" placeholder="Enter City Home" spellcheck="false">
+             <button><img src="search.png"></button>
+        </div>
+        <!-- error message -->
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <!-- weahter  -->
+         <div class="weather">
+            <img src="rain.png" class="weather-icon">
+            <h1 class="temp">25°C</h1>
+            <h2 class="city">kismaayo</h2>
+            <!-- Detail -->
+             <div class="detail">
+                <div class="col">
+                    <img src="humidity.png">
+                          <div>
+                            <p class="humidity">50%</p>
+                            <p class="humidity-text">Humidity</p>
+                          </div>        
+                </div>
+                <div class="col">
+                    <img src="wind.png">
+                          <div>
+                            <p class="wind">15 km/h</p>
+                            <p class="wind">wind speed</p>
+                          </div>        
+                </div>
+             </div>
+         </div>
+    </div>
+    
+<script src="script.js"></script>
+
+</body>
+</html>
